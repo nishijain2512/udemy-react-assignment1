@@ -1,10 +1,12 @@
-import React from React;
+import React from 'react';
 
 const userOutput = (props) => {
     return(
         <div className='UserOutput'>
-            <p>I am paragraph ONE</p>
-            <p>I am paragraph TWO</p>
+            <p>UserName: {props.userName}</p>
+            <p>Password: </p>
         </div>
     )
 };
+
+export default userOutput;
